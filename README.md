@@ -1,6 +1,11 @@
 github-fork-sync
 ------
-A small python script for syncing all forked repos, this will sync all branches. 
+A small python script to sync all forked repos, it uses github api with Basic Authentication.
+
+# get all repositories from owned account
+# get all forked repositories
+# for every forked repositories, find their parent repositories and branches
+# check parent branches refs heads SHA against owned one, update them if mis-match
 
 This script was last tested on **2019/06/20**
 
