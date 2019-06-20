@@ -13,6 +13,7 @@ This script was last tested on **2019/06/20**
 
 ```bash
 git clone https://github.com/efiniLan/github-fork-sync.git
+cd github-fork-sync
 sudo apt-get install python-pip
 sudo pip install requests
 python github-fork-sync <github_username> <github_password>
