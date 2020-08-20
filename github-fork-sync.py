@@ -10,7 +10,7 @@ try:
     message = resp_json["message"]
     sys.exit("Credential check failed: %s" % message)
 except KeyError as e:
-    print "Credential check passed"
+    print ("Credential check passed")
 
 # find all the repos
 repo_list_json = requests.get(resp_json["repos_url"], auth=auth).json()
